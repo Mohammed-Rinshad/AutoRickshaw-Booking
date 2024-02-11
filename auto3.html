@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoRickshaw Booking</title>
+</head>
+<body>
+    <style>
+
+    
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+    
+            header {
+                background-color: #333;
+                color: #fff;
+                text-align: center;
+                padding: 1em 0;
+            }
+    
+            /*footer {
+                background-color: #333;
+                color: #fff;
+                text-align: center;
+                padding: 1em 0;
+                position: relative;
+                width: 100%;
+                bottom: 0;
+                margin-bottom: -3%;
+            } */
+    
+             footer {
+                background-color: #333;
+                color: #fff;
+                text-align: center;
+                padding: 1em 0;
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+            } 
+    
+    
+            .img {
+                cursor: pointer;
+            }
+    
+            button:hover {
+                background-color: #d0ff00;
+            }
+    
+            button {
+                background-color: #d0ff00;
+                color: black;
+                padding: 12px;
+                cursor: pointer;
+                border-radius: 20px;
+                border-color: #d0ff00;
+            }
+    
+            #states {
+                max-width: 700px;
+                margin: 0 auto;
+            }
+    
+            form {
+                display: flex;
+                flex-direction: column;
+            }
+    
+            #image6{
+                border-radius: 20px;
+            }
+        </style>
+
+
+<header>
+    <h1>AutoRickshaw Booking</h1>
+</header>
+<section id="states"> 
+    <form>
+<h1> Select Your Mucipality</h1>
+
+<button onclick="enter6()" id="button1"> CHITTUR-TATTAMANGALAM </button>
+<br><br>
+<button onclick="enter6()" id="button2"> CHERPLASSERY </button>  
+<br><br>
+<button onclick="enter6()" id="button3"> MANNARKKAD</button> 
+<br><br>
+<button onclick="enter6()" id="button4"> OTTPPALAM </button> 
+<br><br>
+<button onclick="enter6()" id="button5"> PALAKKAD </button> 
+<br><br>
+<button onclick="enter6()" id="button6"> PATTAMBI </button> 
+<br><br>
+<button onclick="enter6()" id="button7"> SHORANUR </button> 
+
+
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 AutoRickshaw Booking</p>
+    <img class="img" onclick="enter1()" id="image1" src="https://cdn-icons-png.flaticon.com/512/87/87390.png" width="24px">
+    <img class="img" onclick="enter2()" id="image2" src="https://static.vecteezy.com/system/resources/thumbnails/027/714/631/small/sankt-petersburg-russia-24-08-2023-twitter-new-logo-twitter-icons-twitter-x-logo-free-png.png" width="30px">
+    <img class="img" onclick="enter3()" id="image3" src="https://freepngimg.com/thumb/linkedin/9-2-linkedin-free-download-png.png" width="30px">
+</footer>
+
+<script src="auto.js"></script>
+</body>
+</html>
